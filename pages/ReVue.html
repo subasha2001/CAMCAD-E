@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./ReVue.css">
+    <title>Manage Design Changes without PDM | EnSuite ReVue</title>
+</head>
+
+<body>
+    <div class="header bg-w">
+        <div class="mx1350">
+            <a href=""><img class="logo-color" src="./ReVue/logo-color.png" /></a>
+        </div>
+    </div>
+    <div class="container con-1">
+        <div class="mx1600 pos-rel">
+            <h2 class="tac col-lb">Speed up Product Development</h2>
+            <h3 class="tac col-blue">Manage design changes, automate BOM updates, generate ECNs ... all without PDM!
+            </h3>
+            <div class="semi-circle res"><img class="mt90px" src="./ReVue/main.png" /></div>
+            <div class="resDiv res m-auto dn">
+                <h3 class="col-blue fw500">Design Change Drivers</h3>
+                <div class="grid gap35">
+                    <ul>
+                        <li class="fw500">Cost Reduction Initiatives</li>
+                        <li class="fw500">Supplier/Mfg. Changes</li>
+                        <li class="fw500">Functional Requirements</li>
+                    </ul>
+                    <ul>
+                        <li class="fw500">Business Process Requirements</li>
+                        <li class="fw500">Corrective/Preventive Actions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-res res m-auto dn"><img src="./ReVue/main-res.png" /></div>
+            <button class="query" onclick="popUp()">
+                <svg width="70" height="70" style="width: 70px; height: 70px;">
+                    <g transform="scale(1.9444444444444444) translate(2, 2)">
+                        <g transform="scale(0.75) translate(5.625, 5.625)">
+                            <path fill="rgba(255, 255, 255, 1)"
+                                d="M15.985,5.972c-7.563,0-13.695,4.077-13.695,9.106c0,2.877,2.013,5.44,5.147,7.108c-0.446,1.479-1.336,3.117-3.056,4.566c0,0,4.015-0.266,6.851-3.143c0.163,0.04,0.332,0.07,0.497,0.107c-0.155-0.462-0.246-0.943-0.246-1.443c0-3.393,3.776-6.05,8.599-6.05c3.464,0,6.379,1.376,7.751,3.406c1.168-1.34,1.847-2.892,1.847-4.552C29.68,10.049,23.548,5.972,15.985,5.972zM27.68,22.274c0-2.79-3.401-5.053-7.599-5.053c-4.196,0-7.599,2.263-7.599,5.053c0,2.791,3.403,5.053,7.599,5.053c0.929,0,1.814-0.116,2.637-0.319c1.573,1.597,3.801,1.744,3.801,1.744c-0.954-0.804-1.447-1.713-1.695-2.534C26.562,25.293,27.68,23.871,27.68,22.274z"
+                                style="fill: rgb(255, 255, 255);"></path>
+                        </g>
+                    </g>
+                </svg>
+                <p>For any Queries</p>
+            </button>
+            <div class="popup tac">
+                <p>Contact Us</p>
+                <p>Text me to know about your doubts in this webpage</p>
+                <button class="close-btn" onclick="closepopUp()">X</button>
+                <div class="grid jcsa aic">
+                    <a href="https://wa.me/6382584853"><i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/subash_a_/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-g con-2">
+        <div class="mx1160">
+            <div class="goUp cupo dn" id="goUp" onclick="goToTop()">
+                <img src="./ReVue/up-arrow.png" />
+            </div>
+            <h2 class="tac">Why <span class="col-blue">use ReVue, not PDM,</span> to manage design changes?</h2>
+            <div class="parentfor2 grid jcc gap35">
+                <div class="child"><img src="./ReVue/con-2-img.png" /></div>
+                <div class="grid child parentfor2 gap55 mt55">
+                    <ul class="child fw500 set-light">
+                        <li>Empower everyone - your team, outside partners & suppliers - to modify designs <b>without
+                                rigid PDM-like process</b> overhead
+                        </li>
+                        <li>
+                            Equal access to <b>single version of truth</b> for everyone​
+                        </li>
+                        <li>Save time by automating <b>BOM updates</b> and creating downstream engineering change
+                            documentation <b>(ECOs),</b> on-demand
+                        </li>
+                    </ul>
+                    <ul class="child set-light fw500">
+                        <li><b>Rich graphic user experience</b> to understand design changes easily & quickly</li>
+                        <li><b>No IT set-up</b> or implementation overhead</li>
+                    </ul>
+                </div>
+                <a href="" class="stickyDiv tac">
+                    <div class="pos-rel">
+                        <div>
+                            <div class="stickyIcon">
+                                <img src="./ReVue/calender.png" />
+                            </div>
+                            <div class="stickyText">
+                                Schedule<br>a Demo
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container con-3">
+        <div class="mx1350">
+            <h2 class="tac">80% of PDM functionality</h2>
+            <h3 class="col-blue tac">@ 20% of the cost & 0% of the hassle!</h3>
+            <p class="para17 tac">ReVue offers a rich set of features combined with an intuitive, visual user experience
+                to share, track &
+                manage changes with your team and suppliers <b>without investing in a complex, rigid & pricey PDM
+                    system!</b>
+            </p>
+            <div class="grid con-3-s1 jcc">
+                <div class="grid jcsa w100">
+                    <div class="pos-rel">
+                        <div class="con-3-s1-1 rhombus">
+                            <div class="">
+                                <div class="icons"><img src="./ReVue/share-icon.png" /></div>
+                                <div>
+                                    <h4>Share</h4>
+                                    <p>Share 2D & 3D CAD designs and capture design feedback​</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pos-rel">
+                        <div class="bgg con-3-s1-2 rhombus">
+                            <div class="">
+                                <div class="icons"><img src="./ReVue/pencil.png" /></div>
+                                <div>
+                                    <h4>Track</h4>
+                                    <p>Track design changes graphically in the context of the 3D & 2D CAD data​​</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid jcsa w100">
+                    <div class="pos-rel">
+                        <div class="bgg con-3-s1-3 rhombus">
+                            <div class="">
+                                <div class="icons"><img src="./ReVue/prof-set.png" /></div>
+                                <div>
+                                    <h4>Manage</h4>
+                                    <p>Implement your own design release process easily by accepting or rejecting
+                                        changes​
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pos-rel">
+                        <div class="bgg con-3-s1-4 rhombus">
+                            <div class="">
+                                <div class="icons"><img src="./ReVue/rota-set.png" /></div>
+                                <div>
+                                    <h4>Update</h4>
+                                    <p>Automatically update your Bill Of Materials (BOM) and generate ECOs on-demand​​
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container con-4 bg-img">
+        <div class="mx1160">
+            <div class="b-box aic">
+                <div class="rectangle">ReVue cuts product development costs by 37%</div>
+                <div class="circle">
+                    <div><img src="./ReVue/thumbsup.png" /></div>
+                </div>
+            </div>
+            <div class="grid grid2 mx1160">
+                <div class="grid-sec con-4-s1">
+                    <div class="grid aic">
+                        <div><img src="./ReVue/con-4-icon1.png" /></div>
+                        <div>
+                            <h5>Gain insights from all stakeholders​</h5>
+                            <p class="col-blue para13">"Why was this change made?"​</p>
+                        </div>
+                    </div>
+                    <div class="grid aic">
+                        <div><img src="./ReVue/con-4-icon2.png" /></div>
+                        <div>
+                            <h5>Eliminate as-designed vs as-built errors​​</h5>
+                            <p class="col-blue para13">"Who requested this change? When?"​</p>
+                        </div>
+                    </div>
+                    <div class="grid aic">
+                        <div><img src="./ReVue/con-4-icon3.png" /></div>
+                        <div>
+                            <h5>Reach decisions quicker​</h5>
+                            <p class="col-blue para13">"What was changed and when?"​</p>
+                        </div>
+                    </div>
+                    <div class="grid aic">
+                        <div><img src="./ReVue/con-4-icon4.png" /></div>
+                        <div>
+                            <h5>Reduce rework​</h5>
+                            <p class="col-blue para13">"Oops, I forgot to make the changes we discussed!"​</p>
+                        </div>
+                    </div>
+                    <div class="grid aic">
+                        <div><img src="./ReVue/con-4-icon5.png" /></div>
+                        <div>
+                            <h5>Improve design reuse​</h5>
+                            <p class="col-blue para13">"Didn't we do this in an earlier project?"​</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-sec con-4-s2"><img src="./ReVue/con-4-img.png" /></div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-n con-5">
+        <div class="mx1160">
+            <h2 class="tac"><span class="col-blue">Share 2D & 3D designs</span> with all stakeholders</h2>
+            <div class="parentfor2 grid jcc gap35 aic">
+                <div class="child"><img src="./ReVue/con-5-img.png" /></div>
+                <div class="child set-dark">
+                    <ul class="fw500 lstn set-dark-ul">
+                        <li>
+                            Your team, partners, suppliers and customers can view, evaluate, discuss, collaborate
+                            with <b>2D & 3D designs</b> you share with them.<br><br>
+                            <a href="">Click here to view a complete list of supported CAD formats</a><br>
+                        </li>
+                    </ul>
+                    <ul class="fw500 lstn set-dark-ul">
+                        <li>A host of <b>productivity tools</b> makes it easy to work with design data. Key tools
+                            include:
+                        </li>
+                        <div class="grid gap55 blue-bullet">
+                            <ul>
+                                <li>Measure</li>
+                                <li>Section views</li>
+                                <li>Bounding Box</li>
+                            </ul>
+                            <ul>
+                                <li>Move components</li>
+                                <li>Explode assembly</li>
+                                <li>...and much more</li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-w con-6">
+        <div class="mx1160">
+            <h2 class="tac">Simple <span class="col-blue">notes</span> for quick & easy feedback</h2>
+            <div class="parentfor2 grid jcc gap35 aic">
+                <div class="child child3"><img src="./ReVue/con-6-img.png" /></div>
+                <div class="child child2 set-dark">
+                    <ul class="fw500 lstn set-dark-ul">
+                        <li>
+                            Discussion Participants can share feedback using simple notes referencing relevant parts
+                            of the design.
+                        </li>
+                        <li>Quick & easy. Anyone can leave feedback at their convenience.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-n con-7">
+        <div class="mx1160">
+            <h2 class="tac"><span class="col-blue">3D+Audio Notes</span> for detailed feedback</h2>
+            <div class="parentfor2 grid jcc gap35 aic">
+                <div class="child child2"><img src="./ReVue/con-7-img.png" /></div>
+                <div class="child child3 set-dark">
+                    <ul class="fw500 lstn set-dark-ul">
+                        <li>
+                            When more than a few words are needed to share feedback, dynamic A/V messages is perfect.
+                        </li>
+                        <li>Talk as you rotate, pan, zoom, select, highlight, ... on the 3D model or 2D drawings.</li>
+                        <li>Everything you say and do is captured as feedback.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-w con-6 con-8">
+        <div class="mx1160">
+            <h2 class="tac"><span class="col-blue">Online meetings</span> for true collaboration</h2>
+            <div class="parentfor2 grid jcc gap35 aic">
+                <div class="child child3"><img src="./ReVue/con-8-img.png" /></div>
+                <div class="child child2 set-dark">
+                    <ul class="fw500 lstn set-dark-ul">
+                        <li>
+                            Text comments, 3D+Audio notes​ work for the most part. But there are times when you
+                            simply must get all stakeholders in the room at the same time for a real-time,
+                            interactive discussion of your design and share feedback.
+                        </li>
+                        <li>EnSuite ReVue's real-time, online meetings with built-in audio is meant just for that!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-g con-9">
+        <div class="mx1350 tac">
+            <div class="con-9-s1 grid aic jcc">
+                <h2 class="col-lb">As Featured In</h2>
+            </div>
+            <div class="con-9-s2 grid aic grid3 jcse">
+                <a href="" class="grid-sec"><img src="./ReVue/eng-new.svg" /></a>
+                <a href="" class="grid-sec"><img src="./ReVue/mcadcafe.gif" /></a>
+                <a href="" class="grid-sec"><img src="./ReVue/de240.jpg" /></a>
+            </div>
+            <div class="con-9-s3 grid aic jcc gap35">
+                <a href=""><img src="./ReVue/life-cycle.png" /></a>
+                <a href=""><img src="./ReVue/engi.png" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-img con-10">
+        <div class="mx1160 bg-w circle-sec grid pos-rel">
+            <div class="div-30 grid jcc aic">
+                <div class="circle-div grid aic jcc"><img src="./ReVue/weather-shield.jpg" /></div>
+            </div>
+            <div class="div-65 pos-rel">
+                <p class="para16">At Weather Shield, our engineers regularly collaborate between our various plants and
+                    remote team
+                    members. We have used various screen sharing apps for this purpose. Although these tools worked for
+                    regular team meetings and video calls, for serious product design reviews and engineering
+                    discussions with complex CAD models, we quickly realized they were deficient. That is when we tried
+                    EnSuite ReVue. ​<br><br>
+                    ReVue clearly was created ground up with engineers in mind. First off, we did not have to upload
+                    files to their servers. That was a huge relief given all the concern that companies have with
+                    intellectual property and uploading proprietary data on the cloud. The quality of 3D rendering, the
+                    speed of response and refresh rates when we interact and rotate/zoom the model was also excellent.
+                    But the best part was the ability for each participant to take local control of the CAD model and do
+                    their sidebar analysis without disrupting the meeting for others. ​<br><br>
+                    We have found ReVue to be very useful for all our engineering collaboration needs.​
+                </p>
+                <div class="grid">
+                    <p class="para17">Chris Schield</p>
+                    <p class="para17">Vice President of Marketing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container con-11">
+        <div class="mx1350">
+            <h2 class="tac">Supported <span>2D/3D CAD Formats</span> for Collaboration</h2>
+            <table class="tac mx1160">
+                <tbody>
+                    <tr>
+                        <th>Format</th>
+                        <th>File type</th>
+                        <th>version</th>
+                    </tr>
+                    <tr>
+                        <td>CATIA V5</td>
+                        <td>*.CATPart, *.CATProduct, *.CATShape, *.cgr, *.CATDrawing</td>
+                        <td>CATIA V5 R10 to CATIA V5-6R2022</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>CATIA V6 3DEXPERIENCE</td>
+                        <td>*.3dxml</td>
+                        <td>R2010x to R2020x</td>
+                    </tr>
+                    <tr>
+                        <td>SOLIDWORKS</td>
+                        <td>*.sldprt, *.sldasm, *.prt, *.asm, *.SLDDRW </td>
+                        <td>*.sldprt, *.sldasm, *.prt, *.asm, *.SLDDRW </td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>NX</td>
+                        <td>*.prt</td>
+                        <td>UG 15 to NX 2206</td>
+                    </tr>
+                    <tr>
+                        <td>Creo</td>
+                        <td>*.prt, *.prt.*, *.asm.*, *.asm , *.xpr, *.xas, *.drw</td>
+                        <td>Pro/Engineer 18 to Creo 9.0</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>Solid Edge</td>
+                        <td>*.par, *.asm, *.psm, *.pwd</td>
+                        <td>18 to 2023</td>
+                    </tr>
+                    <tr>
+                        <td>Autodesk Inventor</td>
+                        <td>*.ipt, *.iam</td>
+                        <td>R11 to 2023</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>JT</td>
+                        <td>*.jt</td>
+                        <td>6.4 to 10.7</td>
+                    </tr>
+                    <tr>
+                        <td>STL</td>
+                        <td>*.STL</td>
+                        <td></td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>OBJ</td>
+                        <td>*.OBJ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>glTF</td>
+                        <td>*.gltf, *.glb</td>
+                        <td>2.0</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>Parasolid</td>
+                        <td>*.x_t, *.xmt_txt, *.x_b, *.xmt_bin</td>
+                        <td>Up to 34</td>
+                    </tr>
+                    <tr>
+                        <td>IGES</td>
+                        <td>*.igs, *.iges</td>
+                        <td>Up to 5.3</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>STEP</td>
+                        <td>*.stp, *.step, *.stpZ</td>
+                        <td>AP203, AP214, AP242</td>
+                    </tr>
+                    <tr>
+                        <td>ACIS</td>
+                        <td>*.sat, *.sab, *.asat, *.asab</td>
+                        <td>R2 to R25</td>
+                    </tr>
+                    <tr class="l-grey">
+                        <td>VDA</td>
+                        <td>*.vda</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>IFC</td>
+                        <td>*.ifc</td>
+                        <td>2, 4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="mx1160"><span>Note</span>: Support for assembly files that require other part/assembly files to
+                create the complete 3D view is
+                currently available only on the Windows platform. If you have specific questions about data support,
+                please email <span class="col-l-b">sales@cadcam-e.com</span> before making the purchase.​</p>
+        </div>
+    </div>
+    <div class="container con-12 bg-g">
+        <div class="mx1350">
+            <div class="mx1160 bg-w">
+                <h2>Additional benefits of <br><span class="col-lb fw700">EnSuite ReVue</span></h2>
+                <div>
+                    <ul class="grid">
+                        <li class="pos-rel">
+                            <h3 class="col-lb">CAD Systems <br>Independent</h3>
+                            <p>EnSuite ReVue uses CCE's <span class="col-l-b">proprietary CAD interoperability
+                                    technology</span>. Users don’t need a
+                                license of any of the CAD systems to view multi-CAD data.</p>
+                        </li>
+                        <li class="pos-rel">
+                            <h3 class="col-lb">Automatic<br>Maintenance</h3>
+                            <p>
+                                Users don’t have to worry about software upgrades. Periodic software updates are
+                                deployed automatically without causing any interruption to the user.</p>
+                        </li>
+                        <li class="pos-rel">
+                            <h3 class="col-lb">Proven <br>Technology</h3>
+                            <p>Based on technology that is used by thousands of engineers worldwide daily.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="grid">
+                        <li class="pos-rel">
+                            <h3 class="col-lb">Platform <br>Independent</h3>
+                            <p>Users are not tied to a specific operating system.</p>
+                            <div>
+                                <p>Recommended Browsers</p>
+                                <div class="grid gap10 tac">
+                                    <div>
+                                        <img class="browser" src="./ReVue/chrome.png" />
+                                        <p>Chrome</p>
+                                    </div>
+                                    <div>
+                                        <img class="browser" src="./ReVue/firefox.png" />
+                                        <p>Firefox</p>
+                                    </div>
+                                    <div>
+                                        <img class="browser" src="./ReVue/pera.png" />
+                                        <p>Opera</p>
+                                    </div>
+                                    <div>
+                                        <img class="browser" src="./ReVue/edge.png" />
+                                        <p>Edge</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pos-rel">
+                            <h3 class="col-lb">Reliable <br>Partner</h3>
+                            <p>CCE has been in the interoperability business for 30 years. We are partnered with leading
+                                ISVs like Autodesk and PTC.</p>
+                        </li>
+                        <li class="pos-rel">
+                            <h3 class="col-lb">Data security and <br>Privacy</h3>
+                            <p>We take data security seriously. We use advanced encryption to secure your data. We do
+                                not store any of your data on our servers. We will never rent, sell or share any of your
+                                private information or data with a third party for commercial gains.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container con-13">
+        <div class="mx1160">
+            <h2 class="tac col-lb m0">Experience the power of ReVue</h2>
+            <div class="bg-w">
+                <div class="head-13 grid aic jcc">
+                    <h3 class="col-blue m0 tac selected con13DropDown" onclick="con13DropDown1()">Live Demo</h3>
+                    <h3 class="col-blue m0 tac con13DropDown" onclick="con13DropDown2()">Product Tour</h3>
+                </div>
+                <div class="p60 livedemo">
+                    <div>
+                        <h4 class="head4 col-blue">Custom Live product demo</h4>
+                        <p>Schedule a no-obligation demo, customized for your organization’s design needs and see how
+                            ReVue
+                            can reduce your product development costs significantly!</p>
+                        <h4 class="head4 dark">What you can expect from the demo</h4>
+                        <div class="grid">
+                            <div class="bgimg">
+                                <p>A brief conversation to understand your current design process</p>
+                            </div>
+                            <div class="bgimg">
+                                <p>Live demo of ReVue customized for your design workflow</p>
+                            </div>
+                            <div class="bgimg">
+                                <p>Answer any questions you may have</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="head4 col-blue last">Schedule a demo</h4>
+                        <p>Once you fill out this form, we will contact you via email to schedule a time for the demo.
+                        </p>
+                        <form class="grid gap20 forms1">
+                            <input type="text" placeholder="Your Name*" />
+                            <input type="text" placeholder="Your Company*" />
+                            <input type="text" placeholder="Your Email*" />
+                            <input type="number" placeholder="Your Phone(Optional)" />
+                        </form>
+                        <div class="grid forms2 gap20">
+                            <input type="text" placeholder="Your primary CAD(Optional)" />
+                            <div class="grid aic jcc gap10">
+                                <div><img src="./ReVue/captcha.jpeg" /></div>
+                                <div><img src="./ReVue/reload2.png" /></div>
+                            </div>
+                            <input type="text" placeholder="Enter Captcha*" />
+                        </div>
+                    </div>
+                    <a href="">
+                        <div class="btn">Contact me for the demo</div>
+                    </a>
+                </div>
+                <div class="p60 producttour dn">
+                    <div>
+                        <h4 class="head4 col-blue">Self-directed product tour</h4>
+                        <div class="grid producttour-in">
+                            <div class="bgimg">
+                                <p>Submit your email to receive a link to a no-obligation, self-directed tour of our
+                                    out-of-the-box software.
+                                    ​</p>
+                            </div>
+                            <div class="bgimg">
+                                <p>Explore ReVue at your own pace and see how it can fit in your design change
+                                    management workflow.
+                                    ​</p>
+                            </div>
+                        </div>
+                        <p class="para-invisible">Note: You will not be contacted by CCE unless you reach out to us
+                            with product questions
+                            or request for a custom live demo.
+                            ​</p>
+                        <div class="grid forms2 gap20">
+                            <input type="text" placeholder="Your Email*" />
+                            <div class="grid aic jcc gap10">
+                                <div><img src="./ReVue/captcha.jpeg" /></div>
+                                <div><img src="./ReVue/reload2.png" /></div>
+                            </div>
+                            <input type="text" placeholder="Enter Captcha*" />
+                        </div>
+                        <a href="">
+                            <div class="btn">Email me the product tour link</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-b">
+        <div class="mx1160">
+            <div class="grid bb jcsb">
+                <div class="f-img"><img src="./ReVue/logo.png" /></div>
+                <div class="grid aic gap10">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="grid grid2 res">
+                <div class="grid-sec grid2 grid jcsb">
+                    <div class="grid-sec">
+                        <h3>QUICK LINKS</h3>
+                        <ul class="para14">
+                            <li><a href="">About CCE</a></li>
+                            <li><a href="">Design Discussion</a></li>
+                            <li><a href="">Visualization & Translation</a></li>
+                            <li><a href="">APIs for Developers</a></li>
+                            <li><a href="">Product Design & Development</a></li>
+                            <li><a href="">News & Events</a></li>
+                            <li><a href="">Site Map</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-sec">
+                        <div>
+                            <h3>DESIGN DISCUSSION</h3>
+                            <ul class="para14">
+                                <li><a href="">EnSuite ReVue</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>VISUALIZATION & TRANSLATION</h3>
+                            <ul class="para14">
+                                <li><a href="">EnSuite-Lite</a></li>
+                                <li><a href="">EnSuite</a></li>
+                                <li><a href="">Store</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>APIs FOR DEVELOPERS</h3>
+                            <ul class="para14">
+                                <li><a href="">ODX SDK</a></li>
+                                <li><a href="">Oceans SDK</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid2 grid jcsb grid-sec">
+                    <div class="grid-sec">
+                        <h3>PRODUCT DESIGN & DEVELOPMENT</h3>
+                        <div>
+                            <h3>SUPPORT & FAQ</h3>
+                            <ul class="para14">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">CSR</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Reseller</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-sec">
+                        <div>
+                            <h3>CONTACT US</h3>
+                            <p class="para15">32985 Hamilton Court,<br>Suite 225,<br>Farmington Hills, MI 48334
+                                U.S.A.<br>
+                                Phone: +1(248) 932 5295<br>Email: <a href="">sales@cadcam-e.com</a></p>
+                        </div>
+                        <div>
+                            <h3>NEWSLETTER</h3>
+                            <p class="para15">Why not subscribe to our email list? Get the latest design trends and
+                                industry
+                                news in your inbox.</p>
+                        </div>
+                        <form class="form-1">
+                            <input class="form-1-in" type="text" placeholder="Enter your email" />
+                        </form>
+                        <div class="grid forms-3">
+                            <div class="whi-box"></div>
+                            <div class="f-rel"><img src="./ReVue/reload.png" /></div>
+                            <div>
+                                <form class="form-2">
+                                    <input class="form-2-in" type="text" placeholder="Enter Captcha*" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="grid"><a href="" class="sub-btn">Submit</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container last-div">
+        <div class="mx1160">
+            <p class="para15 para-last">Copyright © 2024, CADCAM-E.COM, Inc</p>
+        </div>
+    </div>
+    <script src="./ReVue.js"></script>
+</body>
+
+</html>
